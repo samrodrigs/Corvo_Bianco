@@ -65,7 +65,7 @@ def primeira_parte():
             print('Porém ao entrar você sente um arrepio estranho, uma energia e um cheiro familiar...')
             print('O que fazer, bruxo?')
             print('1 - Ignorar e ir dormir \n'
-                  '2 - Investigar a casa \n'
+                  '2 - Investigar a casa \n')
 
 
     escolha_feita1 = False
@@ -90,7 +90,7 @@ def primeira_parte():
             print('Opção não existente')
 
 
-/
+
 
 
 
