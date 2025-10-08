@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baab88b7-3a3e-41c9-a147-776b5ea6fcad" name="Changes" comment="nova cena">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geralt.py" beforeDir="false" afterPath="$PROJECT_DIR$/geralt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogo_principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogo_principal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yennefer.py" beforeDir="false" afterPath="$PROJECT_DIR$/yennefer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
       <recent name="C:\Users\Cristiano\Corvo_Bianco" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.geralt">
+  <component name="RunManager" selected="Python.jogo_principal">
     <configuration name="geralt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Corvo_Bianco" />
       <option name="ENV_FILES" value="" />
@@ -99,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.geralt" />
         <item itemvalue="Python.jogo_principal" />
+        <item itemvalue="Python.geralt" />
       </list>
     </recent_temporary>
   </component>

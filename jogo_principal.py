@@ -1,4 +1,4 @@
-from geralt import geralt
+from geralt import campanha
 from yennefer import yennefer
 
 def menu_inicial():
@@ -17,7 +17,7 @@ def menu_inicial():
         escolha = input('Escolha:')
         if escolha == '1':
             (jogarComo_Geralt())
-            (geralt())
+            (campanha())
             break
         elif escolha == '2':
             (jogarComo_Yennefer())

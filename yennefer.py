@@ -3,38 +3,5 @@ def yennefer():
     print("Sua jornada começa em Novigrad...")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     print("Fim da campanha de Yennefer!")
     return "fim"
