@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baab88b7-3a3e-41c9-a147-776b5ea6fcad" name="Changes" comment="nova cena">
+    <list default="true" id="baab88b7-3a3e-41c9-a147-776b5ea6fcad" name="Changes" comment="nova">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geralt.py" beforeDir="false" afterPath="$PROJECT_DIR$/geralt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogo_principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogo_principal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yennefer.py" beforeDir="false" afterPath="$PROJECT_DIR$/yennefer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.geralt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.geralt_version.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jogo_principal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cristiano/Corvo_Bianco&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.geralt.executor": "Run",
+    "Python.geralt_version.executor": "Run",
+    "Python.jogo_principal.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Cristiano/Corvo_Bianco",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Cristiano\Corvo_Bianco" />
@@ -147,12 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759510099690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nova">
+      <option name="closed" value="true" />
+      <created>1759943243261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759943243261</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="continuando a campanha do geralt" />
     <MESSAGE value="nova cena" />
-    <option name="LAST_COMMIT_MESSAGE" value="nova cena" />
+    <MESSAGE value="nova" />
+    <option name="LAST_COMMIT_MESSAGE" value="nova" />
   </component>
 </project>

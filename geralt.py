@@ -15,14 +15,15 @@ def primeira_parte():
           'No topo do pico mais alto de sua propriedade, você medita, ouvindo o barulho dos pássaros \n'
           'e das folhas caindo. \n')
     print('Está prestes a anoitecer, o sol começou a se por. O que você faz?')
+
     escolha_feita = False
 
-    while True:
-        print('1 - Ficar e ver o sol se por')
-        print('2 - Voltar para casa')
-        print('3 - Ir ao vinhedo')
-        escolha = input('Escolha: ')
+    print('1 - Ficar e ver o sol se por')
+    print('2 - Voltar para casa')
+    print('3 - Ir ao vinhedo')
+    escolha = input('Escolha: ')
 
+    while True:
         if escolha == '1' and not escolha_feita:
             geralt_atributos["hp"] += 2
             print('🌅 Você ganhou mais 2 Pontos de vida! Ao ficar você ver o céu se tornando escuro e a '
@@ -48,24 +49,22 @@ def primeira_parte():
                 'Você conseguiu: Uvas de Corvo Bianco ')
             print('Já não resta nada para explorar agora\n'
                   'Volte para casa. ')
-            print(geralt_atributos['itens'])
+            print(geralt_atributos['itens\n'])
             escolha_feita = True
 
         else:
             print('Opção não existente')
 
+        if escolha_feita:
+            print('Não restou mais nada para explorar, você foi para casa\n')
+            break
 
-def investigar_casa():
-    print(
-        'Rodeando a casa, você puxa a adaga em seu cinto e começa a procurar pelo tal invasor ou monstro.\n'
-        'Andando em passos lentos, você mantém a lâmina próxima, seguindo o som misterioso...\n'
-        'Até que...você reconhece o cheiro. \n')
 
 
 def segunda_parte():
     print('Voltando para casa você percebe as lamparinas se ascendendo, a calmaria da propriedade e os \n'
           'funcionários indo cada um aos seus respectivos lugares.\n'
-          ' - Hora de descansar - Você murmura. ')
+          ' \n - Hora de descansar - Você murmura. ')
     print('Porém ao entrar você sente um arrepio estranho, uma energia e um cheiro familiar...')
     print('O que fazer, bruxo?')
     escolha_feita1 = False
@@ -80,14 +79,24 @@ def segunda_parte():
             print('😴 Você sobe para o quarto, tira seu gibão e roupas; sem tomar banho, deita-se na cama mas o arrepio\n'
                 'ainda persiste.\n'
                 '- Esse cheiro...'
-                'Você, ainda inseguro com o tal cheiro, resolve se levantar. Você põe suas vestes e desce as escadas.')
+                'Você, ainda inseguro com o tal cheiro, fica inquieto na cama por um período de tempo\n'
+                'que pareciam ser horas atá ouvir um curto susurro vindo das sombras.'
+                'Aroma de Lilás e Groselha\n'
+                '- Meu Lobo Branco...\n'
+                '- Merda. - Você diz em voz baixa. - Quando planejou vir aqui, Yennefer?\n'
+                'Estava resolvendo problemas de estado e senti sua falta - Ela responde\n\n'
+                'Delicadamente, Yennefer se aproxima e se revela ')
+            print('Você, dando um longo suspiro sente cada vez mais o cheiro que te desarma.'
+                  'Yennefer está com s  ')
 
-            investigar_casa()
-            escolha_feita1 = True
-            break
 
         elif escolha2 == '2':
-            investigar_casa()
+            print(
+                'Rodeando a casa, você puxa a adaga em seu cinto e começa a procurar pelo tal invasor ou monstro.\n'
+                'Andando em passos lentos, você mantém a lâmina próxima, seguindo o som misterioso...\n'
+                'Até que...você reconhece o cheiro. \n'
+                'Aroma de lilás e groselha\n'
+                '- Merda, Yen.')
             break
 
         else:
@@ -102,7 +111,7 @@ def campanha():
     print(f"Dinheiro: {geralt_atributos['dinheiro']}")
     print(f"Itens: {geralt_atributos['itens']}\n")
 
-    primeira_parte()  #
+    primeira_parte()
     segunda_parte()
     print("Fim da campanha de Geralt!")
 
