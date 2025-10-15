@@ -80,14 +80,20 @@ def segunda_parte():
                 'ainda persiste.\n'
                 '- Esse cheiro...'
                 'Você, ainda inseguro com o tal cheiro, fica inquieto na cama por um período de tempo\n'
-                'que pareciam ser horas atá ouvir um curto susurro vindo das sombras.'
+                'que pareciam ser horas atá ouvir um curto susurro vindo das sombras.\n'
                 'Aroma de Lilás e Groselha\n'
                 '- Meu Lobo Branco...\n'
                 '- Merda. - Você diz em voz baixa. - Quando planejou vir aqui, Yennefer?\n'
                 'Estava resolvendo problemas de estado e senti sua falta - Ela responde\n\n'
                 'Delicadamente, Yennefer se aproxima e se revela ')
             print('Você, dando um longo suspiro sente cada vez mais o cheiro que te desarma.'
-                  'Yennefer está com s  ')
+                  'Yennefer usa um robe de seda preto, os cachos negros estão soltos. Ela se aproxima mais.\n'
+                  '- Suponho que você saiba o que quero. - Yennefer diz'
+                  '- Não estou com energia para seus joguinhos.'
+                  '- Não estou jogando desta vez.'
+                  '- Então o que veio fazer aqui exatamente?'
+                  '- '
+                  '- Hum')
 
 
         elif escolha2 == '2':
@@ -96,7 +102,21 @@ def segunda_parte():
                 'Andando em passos lentos, você mantém a lâmina próxima, seguindo o som misterioso...\n'
                 'Até que...você reconhece o cheiro. \n'
                 'Aroma de lilás e groselha\n'
-                '- Merda, Yen.')
+                '- Merda, Yen.\n'
+                '- O que? - Yennefer aparece em meio a escuridão, usando sua roupa preta e branca, como se estivesse\n'
+                'acabado de sair de um portal.\n'
+                '- Você não pode aparecer aqui assim.\n'
+                '- Não é sempre assim que nos encontramos? Nos susurros?\n'
+                '- Costumava ser.\n'
+                '- Você me pediu para ficar, estou aqui.\n'
+                '- Pedi isso meses atrás. Ciri seguiu a própria vida, fiquei com isso, sozinho.\n'
+                '- Não era você que gostava da solidão?\n'
+                '- Não quando se tratava de você Yen. Mas você foi embora.'
+                '- Eu tinha assuntos de Estado, você, os seus de Bruxo.\n'
+                '- Minha vida se trata disso que tenho agora.'
+                '- Vim para fazer parte dela, se você permitir, Geralt. - Yennefer diz, se aproximando devagar\n'
+                '- Hum '
+                )
             break
 
         else:
